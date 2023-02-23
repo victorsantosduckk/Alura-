@@ -1,0 +1,146 @@
+:root {
+  --Branco-principal: #FFFFFF;
+  --Cinza-secundario: #C0C0C0;
+  --Botao-Azul: #167BF7;
+  --Cor-de-fundo: #040814;
+  --Cor-lingua: #EC2F46;
+  --fonte-principal: 'Inter';
+
+}
+
+body{
+  background-color: var(--Cor-de-fundo);
+  color: #FFFFFF;
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ .principal{
+    background-image: url("Img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    display: flex;
+ }
+ 
+ .container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ .container__botao {
+  background-color: var(--Botao-Azul);
+  border-radius: 5px;
+  padding: 1em;
+  color: var(--Branco-principal);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1em;
+
+ }
+
+ .botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--Branco-principal);
+
+ }
+
+ .container__aviso {
+  font-size: 12px;
+  color: var(--Cinza-secundario);
+ }
+
+ .container__titulo {
+  font-size: 28px;
+  font-weight: 700;
+
+ }
+
+ .container__imagem {
+    margin: 1em 0 2em 0;
+ }
+
+ .container__caixa {
+  margin: 5em 6em;
+ }
+
+ .secundario__img{
+  width: 80%;
+ }
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+
+}
+
+.descricao__titulo{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--Branco-principal);
+  margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+  color: var(--Cinza-secundario);
+
+}
+
+.secundario__botao{
+  display: inline-block;
+  margin: 1em 1em;
+}
+
+.dispositvos_lista {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 5em 0;
+}
+
+.dispositivos {
+  text-align: center;
+}
+
+.dispositivos__titulo {
+  font-size: 48px;
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--Branco-principal);
+}
+
+.rodape {
+  text-align: center;
+  margin: 1em;
+  padding: 0;
+  text-decoration: none;
+}
+
+.rodape__list {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--Branco-principal);
+
+}
+
+.rodape__lista {
+  text-decoration: none;
+}
+
+.rodape__texto {
+  margin: 2em 0;
+  color: var(--Cinza-secundario);
+}
